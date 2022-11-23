@@ -1,3 +1,5 @@
+// Метод проверки вложенности структуры массива
+
 arr = [ [ [1, 1], [2, 2] ] ];
 
 Array.prototype.sameStructureAs = function (sameArr) {
